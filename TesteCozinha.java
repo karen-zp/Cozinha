@@ -4,7 +4,7 @@ public class TesteCozinha{
         Microondas microondas = new Microondas();
         Geladeira geladeira = new Geladeira();
 
-        Cozinha minhaCozinha = new Cozinha(liquidificador, microondas, geladeira);
+        Cozinha cozinha = new Cozinha(liquidificador, microondas, geladeira);
 
         minhaCozinha.ligar();
         liquidificador.observar();
